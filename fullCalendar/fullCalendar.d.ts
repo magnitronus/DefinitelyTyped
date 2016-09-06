@@ -47,7 +47,7 @@ declare namespace FullCalendar {
         weekNumberCalculation?: any; // String/Function
         businessHours?: boolean | BusinessHours;
         height?: number;
-        contentHeight?: number;
+        contentHeight?: number | string;
         aspectRatio?: number;
         handleWindowResize?: boolean;
 		views?: ViewSpecificOptions;
